@@ -17,6 +17,6 @@ function fizzbuzz(n) {
   }
 }
 
-const n = 31;
+const n = 100;
 
 fizzbuzz(n);
