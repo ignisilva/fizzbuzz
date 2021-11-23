@@ -2,6 +2,7 @@ function fizzbuzz(n) {
   for (let i = 1; i <= n; i++) {
     let fizzbuzz = "";
 
+    if (i % 3 === 0) fizzbuzz += "fizz";
     // 3의 배수일땐 'fizz'
     // 5의 배수일땐 'buzz'
     // 15의 배수일땐 'fizzbuzz'
