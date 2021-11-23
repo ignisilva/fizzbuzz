@@ -10,11 +10,7 @@ function fizzbuzz(n) {
       if (i % 5 === 0) fizzbuzz += "buzz";
 
       // 나머지 경우엔 숫자
-      if (fizzbuzz === "") {
-        console.log(i);
-      } else {
-        console.log(fizzbuzz);
-      }
+      console.log(fizzbuzz === "" ? i : fizzbuzz);
     }
     console.log();
   });
