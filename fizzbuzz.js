@@ -14,6 +14,7 @@ function fizzbuzz(n) {
     }
     console.log();
   });
+  console.log("fizzbuzz done");
 }
 
 const n = [31, 100];
