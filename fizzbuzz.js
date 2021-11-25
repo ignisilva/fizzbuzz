@@ -1,9 +1,3 @@
-fruits = ["Apple", "Banana", "Pineapple"];
-
-animals = ["Lion", "Tiger", "Rabbit"];
-
-Clubs = ["ManU", "ManC"];
-
 function fizzbuzz(n) {
   n.forEach((num) => {
     for (let i = 1; i <= num; i++) {
